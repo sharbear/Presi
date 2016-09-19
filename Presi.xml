@@ -18,8 +18,8 @@
               <block type="led_select" id="100" inline="true">
                 <field name="ACTION">ON</field>
                 <value name="LED">
-                  <block type="math_number" id="171">
-                    <field name="NUM">0</field>
+                  <block type="math_number" id="215">
+                    <field name="NUM">1</field>
                   </block>
                 </value>
                 <next>
@@ -27,7 +27,7 @@
                     <field name="ACTION">ON</field>
                     <value name="LED">
                       <block type="math_number" id="164">
-                        <field name="NUM">0</field>
+                        <field name="NUM">2</field>
                       </block>
                     </value>
                     <next>
@@ -35,21 +35,11 @@
                         <field name="ACTION">ON</field>
                         <value name="LED">
                           <block type="math_number" id="157">
-                            <field name="NUM">0</field>
+                            <field name="NUM">3</field>
                           </block>
                         </value>
                         <next>
-                          <block type="multimedia_playwav" id="178">
-                            <field name="WAV"></field>
-                            <next>
-                              <block type="multimedia_volume" id="194">
-                                <field name="VOLUME">HIGH</field>
-                                <next>
-                                  <block type="movement_stop" id="45"></block>
-                                </next>
-                              </block>
-                            </next>
-                          </block>
+                          <block type="movement_stop" id="45"></block>
                         </next>
                       </block>
                     </next>
