@@ -40,7 +40,7 @@
                         </value>
                         <next>
                           <block type="multimedia_playwav" id="178">
-                            <field name="WAV">Denzel Curry-Ultimate</field>
+                            <field name="WAV"></field>
                             <next>
                               <block type="multimedia_volume" id="194">
                                 <field name="VOLUME">HIGH</field>
