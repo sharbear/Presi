@@ -1,0 +1,10 @@
+{
+    "name": "Presi",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "Presi.xml",
+    "author": "sharbear",
+    "minimum_firmware_version": 42
+}
