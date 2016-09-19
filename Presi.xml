@@ -22,37 +22,4 @@
       </block>
     </next>
   </block>
-  <block type="math_number" id="25" x="167" y="266">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="26" x="187" y="306">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="27" x="207" y="346">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="28" x="227" y="386">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="29" x="247" y="426">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="30" x="267" y="466">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="31" x="287" y="506">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="32" x="307" y="546">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="33" x="327" y="586">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="34" x="347" y="626">
-    <field name="NUM">0</field>
-  </block>
-  <block type="math_number" id="35" x="367" y="666">
-    <field name="NUM">0</field>
-  </block>
 </xml>
