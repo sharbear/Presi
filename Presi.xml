@@ -4,17 +4,23 @@
       <block type="robot_delay" id="13" inline="true">
         <value name="DELAY">
           <block type="math_number" id="23">
-            <field name="NUM">100000</field>
+            <field name="NUM">100</field>
           </block>
         </value>
         <next>
-          <block type="movement_stop" id="45"></block>
+          <block type="robot_delay" id="84" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="24">
+                <field name="NUM">500</field>
+              </block>
+            </value>
+            <next>
+              <block type="movement_stop" id="45"></block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
-  </block>
-  <block type="math_number" id="24" x="147" y="226">
-    <field name="NUM">0</field>
   </block>
   <block type="math_number" id="25" x="167" y="266">
     <field name="NUM">0</field>
