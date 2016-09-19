@@ -2,7 +2,7 @@
   <block type="movement_forward" id="1" x="29" y="27">
     <next>
       <block type="led_select" id="2" inline="true">
-        <field name="ACTION">FLASH</field>
+        <field name="ACTION">ON</field>
         <value name="LED">
           <block type="math_number" id="3">
             <field name="NUM">1</field>
@@ -10,7 +10,7 @@
         </value>
         <next>
           <block type="led_select" id="4" inline="true">
-            <field name="ACTION">FLASH</field>
+            <field name="ACTION">ON</field>
             <value name="LED">
               <block type="math_number" id="5">
                 <field name="NUM">2</field>
@@ -18,7 +18,7 @@
             </value>
             <next>
               <block type="led_select" id="6" inline="true">
-                <field name="ACTION">FLASH</field>
+                <field name="ACTION">ON</field>
                 <value name="LED">
                   <block type="math_number" id="7">
                     <field name="NUM">3</field>
