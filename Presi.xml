@@ -49,17 +49,17 @@
                             <next>
                               <block type="movement_reverse" id="14">
                                 <next>
-                                  <block type="movement_leftmotor" id="80" inline="true">
-                                    <value name="MOVLEFT">
-                                      <block type="math_number" id="18">
-                                        <field name="NUM">10</field>
+                                  <block type="robot_delay" id="100" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="101">
+                                        <field name="NUM">3000</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="movement_rightmotor" id="99" inline="true">
-                                        <value name="MOVRIGHT">
-                                          <block type="math_number" id="16">
-                                            <field name="NUM">10</field>
+                                      <block type="robot_delay" id="102" inline="true">
+                                        <value name="DELAY">
+                                          <block type="math_number" id="103">
+                                            <field name="NUM">1950</field>
                                           </block>
                                         </value>
                                         <next>
