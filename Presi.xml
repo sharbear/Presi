@@ -65,7 +65,7 @@
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="movement_stop" id="41"></block>
+                                              <block type="movement_stop" id="20"></block>
                                             </next>
                                           </block>
                                         </next>
