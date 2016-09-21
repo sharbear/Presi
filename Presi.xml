@@ -49,23 +49,23 @@
                             <next>
                               <block type="movement_reverse" id="14">
                                 <next>
-                                  <block type="robot_delay" id="100" inline="true">
+                                  <block type="robot_delay" id="15" inline="true">
                                     <value name="DELAY">
-                                      <block type="math_number" id="101">
+                                      <block type="math_number" id="16">
                                         <field name="NUM">4900</field>
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="movement_forward" id="104">
+                                      <block type="movement_forward" id="17">
                                         <next>
-                                          <block type="robot_delay" id="102" inline="true">
+                                          <block type="robot_delay" id="18" inline="true">
                                             <value name="DELAY">
-                                              <block type="math_number" id="103">
+                                              <block type="math_number" id="19">
                                                 <field name="NUM">100</field>
                                               </block>
                                             </value>
                                             <next>
-                                              <block type="movement_stop" id="19"></block>
+                                              <block type="movement_stop" id="20"></block>
                                             </next>
                                           </block>
                                         </next>
